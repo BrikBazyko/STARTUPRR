@@ -1,0 +1,14 @@
+.text{
+  font-size: 18px;
+  &--main{
+    background: #363636;
+    color: white;
+    max-width: 600px;
+    padding: 3px;
+    border-radius: 5px;
+  }
+  &--main::before{
+    content: "S";
+    color: #5ea79c;
+  }
+}
