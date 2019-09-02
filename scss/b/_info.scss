@@ -1,0 +1,16 @@
+.info{
+  background: #f9f9f9;
+  margin-top: 50px;
+  &__item{
+    display: flex;
+    width: 340px;
+    margin-bottom: 30px;
+  }
+  &__item--section{
+  }
+  &__item--img{
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+  }
+}
