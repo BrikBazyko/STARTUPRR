@@ -32,4 +32,35 @@
     left: 235px;
     bottom: 0px;
   }
+  &--blog{
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    position: relative;
+  }
+  &--blog::before{
+    content: "";
+    background: url(../img/left-shapes.png) no-repeat;
+    position: absolute;
+    width: 28px;
+    height: 20px;
+    right: 270px;
+    bottom: 0px;
+  }
+  &--blog::after{
+    content: "";
+    background: url(../img/right-shapes.png) no-repeat;
+    position: absolute;
+    width: 28px;
+    height: 20px;
+    left: 270px;
+    bottom: 0px;
+  }
+  &--blog__details{
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
 }
