@@ -5,86 +5,89 @@
 @import "b/text";
 @import "b/menu";
 @import "b/header";
+@import "b/gallery";
+@import "b/btn";
 
-body{
-  background: #f9f9f9;
+.blog{
+  background: #383838;
+
 }
-.gallery{
-  margin-top: 80px;
-  background: #f9f9f9;
+.blog__title{
+  display: flex;
+  align-items:center;
+  flex-direction: column;
+  margin-bottom: 50px;
 }
-.title--gallery{
+.title--blog{
   text-transform: uppercase;
+  color: white;
+  margin-bottom: 10px;
+  margin-top: 50px;
   position: relative;
 }
-.title--gallery::before{
+.title--blog::before{
   content: "";
   background: url(../img/left-shapes.png) no-repeat;
   position: absolute;
   width: 28px;
   height: 20px;
-  right: 235px;
+  right: 270px;
   bottom: 0px;
 }
-.title--gallery::after{
+.section-icon{
+  display: flex;
+  justify-content: center;
+  margin-bottom: -25px;
+}
+.section-icon--img{
+  z-index: 1;
+}
+.title--blog::after{
   content: "";
   background: url(../img/right-shapes.png) no-repeat;
   position: absolute;
   width: 28px;
   height: 20px;
-  left: 235px;
+  left: 270px;
   bottom: 0px;
 }
-
-.color{
-  color: #00a99d;
-}
-.gallery__title{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 35px;
-}
-.text--gallery{
-  color: gray;
-  margin-top: 10px;
-}
-.gallery__list--item{
-  padding: 10px;
-  margin: 10px;
-  flex-basis: 20%;
-}
-.title--gallery__list{
-  text-transform: uppercase;
-  font-size: 18px;
+.text--blog{
   color: #606060;
+}
+.blog__info{
+  display: flex;
+  justify-content: space-between;
+
+}
+.blog__details--item{
+  display: flex;
+  width: 400px;
+  margin-bottom: 40px;
+}
+.blog__img{
+  margin-right: 40px;
+  margin-top: 5px;
+}
+.title--blog__details{
+  text-transform: uppercase;
+  color: white;
+  font-size: 14px;
   margin-bottom: 10px;
 }
-.gallery__list{
-  display: flex;
-  justify-content: center;
-  text-align: center;
+.blog__details{
+  max-width: 400px;
+  margin-top: 80px;
+  margin-left: 50px;
 }
-.btn--gallery__list{
-  text-decoration: none;
-  padding: 10px;
-  border: 1px solid #606060;
-  font-weight: bold;
-  border-radius: 3px;
-  font-size: 14px;
+.text--blog__details{
+  font-size: 15px;
   color: #606060;
+  line-height: 25px;
 }
-.text--gallery__list{
-  font-size: 16px;
-  color: #606060;
-  margin-bottom: 35px;
+.blog__details--image IMG {
+  position: relative;
 }
-.btn:hover{
-  color: #00a99d;
-}
-.gallery__list--img{
-  margin-bottom: 20px;
-}
-a:hover{
-  color: #00a99d;
+.blog__details--first{
+  z-index: 1;
+  left: 190px;
 }

@@ -1,0 +1,14 @@
+.btn{
+  &:hover{
+    color: #00a99d;
+  }
+  &--gallery__list{
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid #606060;
+    font-weight: bold;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #606060;
+  }
+}

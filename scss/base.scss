@@ -25,7 +25,6 @@
   padding: 0;
   margin: 0;
 }
-
 h1{
   color: #3b3b3b;
   text-transform: uppercase;
@@ -39,4 +38,13 @@ h1{
 a{
   text-decoration: none;
   color: #606060;
+  &:hover{
+    color: #00a99d;
+  }
+}
+body{
+  background: #f9f9f9;
+}
+.color{
+  color: #00a99d;
 }

@@ -11,4 +11,13 @@
     content: "S";
     color: #5ea79c;
   }
+  &--gallery{
+    color: gray;
+    margin-top: 10px;
+  }
+  &--gallery__list{
+    font-size: 16px;
+    color: #606060;
+    margin-bottom: 35px;
+  }
 }

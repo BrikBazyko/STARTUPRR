@@ -4,5 +4,32 @@
     margin-top: 50px;
     position: relative;
   }
-
+  &--gallery{
+    text-transform: uppercase;
+    position: relative;
+  }
+  &--gallery__list{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #606060;
+    margin-bottom: 10px;
+  }
+  &--gallery::before{
+    content: "";
+    background: url(../img/left-shapes.png) no-repeat;
+    position: absolute;
+    width: 28px;
+    height: 20px;
+    right: 235px;
+    bottom: 0px;
+  }
+  &--gallery::after{
+    content: "";
+    background: url(../img/right-shapes.png) no-repeat;
+    position: absolute;
+    width: 28px;
+    height: 20px;
+    left: 235px;
+    bottom: 0px;
+  }
 }
