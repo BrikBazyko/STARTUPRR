@@ -10,7 +10,7 @@
   height: 2px;
   background: #ababab;
   left: 50px;
-  bottom: 0px;
+  bottom: 10px;
 }
 .line::before{
   content: "";
@@ -19,7 +19,7 @@
   height: 2px;
   background: #ababab;
   left: 432px;
-  bottom: 0px;
+  bottom: 10px;
 }
 *{
   padding: 0;
@@ -52,4 +52,38 @@ body{
     color: #aaaaaa;
     margin-bottom: 10px;
   }
+}
+
+
+
+.post__line{
+  width: 100px;
+  margin: 7px;
+  background-color: #484848;
+  height: 1px;
+  border: white;
+}
+.post__img{
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+.fontsize{
+  font-size: 10px;
+}
+.fontup{
+  font-size: 70px;
+}
+.vertical-sub{
+  vertical-align: sub;
+}
+.vertical-middle{
+  vertical-align: middle;
+}
+.up{
+  font-size: 70px;
+  vertical-align: top;
+}
+.vertical-up{
+  vertical-align: middle;
 }

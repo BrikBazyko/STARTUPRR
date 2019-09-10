@@ -1,0 +1,20 @@
+.works{
+  display: flex;
+  justify-content: center;
+  color: black;
+  text-align: center;
+  flex-direction: column;
+  &__gallery{
+    display: flex;
+    justify-content: center;
+    margin-top: -3px;
+  }
+  &__gallery--img{
+    height: 235px;
+    width: 235px;
+    border-radius: 3px;
+  }
+  &__gallery--image{
+    margin: 1px;
+  }
+}

@@ -1,4 +1,5 @@
 .title{
+  text-transform: uppercase;
   &--main{
     color: #3b3b3b;
     margin-top: 50px;
@@ -69,4 +70,85 @@
     font-size: 14px;
     margin-bottom: 5px;
   }
+  &__skills{
+    text-transform: uppercase;
+    margin-top: 50px;
+  position: relative;
+  }
+  &__skills::before{
+    content: "";
+  background: url(../img/left-shapes.png) no-repeat;
+  position: absolute;
+  width: 28px;
+  height: 20px;
+  left: 365px;
+  bottom: 0px;
+  }
+  &__skills::after{
+    content: "";
+  background: url(../img/right-shapes.png) no-repeat;
+  position: absolute;
+  width: 28px;
+  height: 20px;
+  right:365px;
+  bottom: 0px;
+  }
+  &--skills__item{
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: #8a8a8a;
+  }
+  &__works{
+    position: relative;
+    margin-top: 50px;
+  }
+  &__works::before{
+    content: "";
+  background: url(../img/left-shapes.png) no-repeat;
+  position: absolute;
+  width: 28px;
+  height: 20px;
+  left: 415px;
+  bottom: 0px;
+  }
+  &__works::after{
+    content: "";
+  background: url(../img/right-shapes.png) no-repeat;
+  position: absolute;
+  width: 28px;
+  height: 20px;
+  right: 415px;
+  bottom: 0px;
+  }
+  &__facts{
+    position: relative;
+    margin-top: 50px;
+    color: #e4e4e4;
+  }
+  &__facts::before{
+    content: "";
+    background: url(../img/left-shapes.png) no-repeat;
+    position: absolute;
+    width: 28px;
+    height: 20px;
+    left: 415px;
+    bottom: 0px;
+  }
+  &__facts::after{
+    content: "";
+    background: url(../img/right-shapes.png) no-repeat;
+    position: absolute;
+    width: 28px;
+    height: 20px;
+    right: 415px;
+    bottom: 0px;
+  }
+
+  &--facts__item{
+    margin-bottom: 15px;
+    font-size: 60px;
+    color: #e4e4e4;
+    font-weight: lighter;
+  }
+
 }

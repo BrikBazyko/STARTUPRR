@@ -10,55 +10,6 @@
 @import "b/blog";
 @import "b/section-icon";
 @import "b/info";
-
-
-.skills{
-  background: #383838;
-display: flex;
-justify-content: center;
-color: white;
-text-align: center;
-flex-direction: column;
-}
-.title--title__skills{
-  text-transform: uppercase;
-  margin-top: 50px;
-position: relative;
-}
-.title--title__skills::before{
-  content: "";
-background: url(../img/left-shapes.png) no-repeat;
-position: absolute;
-width: 28px;
-height: 20px;
-left: 365px;
-bottom: 0px;
-}
-.title--title__skills::after{
-  content: "";
-background: url(../img/right-shapes.png) no-repeat;
-position: absolute;
-width: 28px;
-height: 20px;
-right:365px;
-bottom: 0px;
-}
-.text--title__skills{
-  color: #606060;
-  margin-top: 5px;
-  margin-bottom: 50px;
-
-}
-.skills__item{
-  position: relative;
-}
-.title--skills__item{
-  text-transform: uppercase;
-  margin-top: 10px;
-  color: #8a8a8a;
-}
-.skill-circle{
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 50px;
-}
+@import "b/skills";
+@import "b/works";
+@import "b/facts";
