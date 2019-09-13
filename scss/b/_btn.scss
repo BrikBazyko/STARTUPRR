@@ -28,4 +28,37 @@
   &--works__button:hover{
     color: white;
   }
+  &--label{
+    text-transform: uppercase;
+    color: #606060;
+    background: #e4e4e4;
+    width: 150px;
+    padding: 10px;
+    border-radius: 3px;
+    margin-right: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+  }
+  &--label:hover{
+    color: black;
+  }
+  &--command__members{
+    background: #00a99d;
+    padding: 10px 15px;
+    width: 135px;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: -19px;
+    color: #e4e4e4;
+  }
+  &--command__members:hover{
+    color: #e4e4e4;
+  }
+  &--command__member--color{
+    background:  #383838;
+  }
 }

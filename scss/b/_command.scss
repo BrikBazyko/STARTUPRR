@@ -1,0 +1,32 @@
+.command{
+  background: #f9f9f9;
+  &__title--btn{      background: #383838;
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 3px;
+  }
+  &__title{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  &__members{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px
+  }
+  &__members--img{
+    width: 250px;
+    height: 270px;
+    border-radius: 5px;
+  }
+  &__members--item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #dedede;
+  }
+}

@@ -143,12 +143,45 @@
     right: 415px;
     bottom: 0px;
   }
-
   &--facts__item{
     margin-bottom: 15px;
     font-size: 60px;
     color: #e4e4e4;
     font-weight: lighter;
   }
-
+  &--label{
+    color: white;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 10px 15px;
+  }
+  &__command{
+    position: relative;
+  }
+  &__command::before{
+    content: "";
+    background: url(../img/left-shapes.png) no-repeat;
+    position: absolute;
+    width: 28px;
+    height: 20px;
+    left: 435px;
+    bottom: 0px;
+  }
+  &__command::after{
+    content: "";
+    background: url(../img/right-shapes.png) no-repeat;
+    position: absolute;
+    width: 28px;
+    height: 20px;
+    right: 435px;
+    bottom: 0px;
+  }
+  &--command__members{
+    padding: 10px 0 10px;
+    border-bottom: 1px solid #ebebeb;
+    margin: 15px 0 15px;
+    color: #606060;
+    font-size: 15px;
+  }
 }

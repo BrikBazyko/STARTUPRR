@@ -14,19 +14,19 @@
   &--gallery{
     color: gray;
     margin-top: 10px;
-  }
-  &--gallery__list{
-    font-size: 16px;
-    color: #606060;
-    margin-bottom: 35px;
+    &__list{
+      font-size: 16px;
+      color: #606060;
+      margin-bottom: 35px;
+    }
   }
   &--blog{
     color: #606060;
-  }
-  &--blog__details{
-    font-size: 15px;
-    color: #606060;
-    line-height: 25px;
+    &__details{
+      font-size: 15px;
+      color: #606060;
+      line-height: 25px;
+    }
   }
   &--info__item{
     font-size: 14px;
@@ -46,10 +46,45 @@
   &__facts{
     color:#8a8a8a;
     margin-bottom: 50px;
+    &--facts__item{
+      text-transform: uppercase;
+      color:#8a8a8a;
+      margin-top: 15px;
+    }
   }
-  &--facts__item{
-    text-transform: uppercase;
+  &__command{
     color:#8a8a8a;
     margin-top: 15px;
+  }
+  &--command__members{
+    color: #aaaaaa;
+    margin: 0 0 25px;
+    position: relative;
+    font-size: 14px;
+    margin-left: 20px;
+  }
+  &--command__members::before{
+    content: "";
+    background: url(../img/envelope.png) no-repeat;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: -50px;
+    background-size: cover;
+    top: -7px;
+  }
+  &--command__members--phone{
+    font-size: 12px;
+    position: relative;
+  }
+  &--command__members--phone::before{
+    content: "";
+    background: url(../img/phone.png) no-repeat;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: -50px;
+    background-size: cover;
+    top: -10px;
   }
 }

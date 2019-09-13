@@ -13,38 +13,9 @@
 @import "b/skills";
 @import "b/works";
 @import "b/facts";
+@import "b/label";
+@import "b/command";
 
-.label{
+.right--icon{
   background: #00a99d;
-}
-.title--label{
-  color: white;
-  font-size: 18px;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  padding: 10px 15px;
-}
-.btn--label{
-  text-transform: uppercase;
-  color: #606060;
-  background: #e4e4e4;
-  width: 150px;
-  padding: 10px;
-  border-radius: 3px;
-  margin-right: 10px;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  font-size: 15px;
-  font-weight: bold;
-  text-align: center;
-}
-.btn--label:hover{
-  color: black;
-}
-.label__button{
-  display: flex;
-}
-.container__label{
-  display: flex;
-  justify-content: space-between;
 }
