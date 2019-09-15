@@ -209,5 +209,42 @@
   &--more__title::after{
     content: "”";
   }
-
+  &--price{
+    position: relative;
+    margin-top: 50px;
+  }
+  &--price::before {
+    content: "";
+    background: url(../img/left-shapes.png) no-repeat;
+    position: absolute;
+    width: 28px;
+    height: 20px;
+    left: 415px;
+    bottom: 0px;
+  }
+  &--price::after {
+    content: "";
+    background: url(../img/right-shapes.png) no-repeat;
+    position: absolute;
+    width: 28px;
+    height: 20px;
+    right: 415px;
+    bottom: 0px;
+  }
+  &--package-plan{
+    background: #383838;
+    color: #e4e4e4;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: -40px;
+  }
+  &--package{
+    text-transform: none;
+    text-align: center;
+    color: #383838;
+    font-size: 36px;
+    border-bottom: 1px solid #ebebeb;
+    width: 230px;
+    padding: 0 0 15px 0px;
+  }
 }

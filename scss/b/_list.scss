@@ -1,0 +1,11 @@
+.list{
+  &--package{
+    border-bottom: 1px solid #ebebeb;
+    width: 230px;
+  }
+  &__item {
+    color: gray;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}

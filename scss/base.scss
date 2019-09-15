@@ -76,6 +76,7 @@ body{
 }
 .vertical-middle{
   vertical-align: middle;
+  position: relative;
 }
 .up{
   font-size: 70px;
@@ -86,4 +87,14 @@ body{
 }
 .right--icon{
   background: #00a99d;
+}
+li{
+  list-style-type: none;
+}
+.sup{
+  vertical-align: text-top;
+  font-size: 14px;
+}
+.left{
+  margin-left: 10px;
 }

@@ -1,6 +1,6 @@
 .btn{
   &:hover{
-    color: #00a99d;
+    color: black;
   }
   &--gallery__list{
     text-decoration: none;
@@ -78,5 +78,17 @@
     height: 25px;
     border: none;
     border-radius: 3px;
+  }
+  &--package{
+    background: #00a99d;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 118px;
+    height: 20px;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    text-transform: uppercase;
   }
 }

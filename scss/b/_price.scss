@@ -1,0 +1,13 @@
+.price{
+  display: flex;
+  justify-content: center;
+  color: black;
+  text-align: center;
+  flex-direction: column;
+  &__list{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10px;
+  }
+}
