@@ -61,4 +61,15 @@
   &--command__member--color{
     background:  #383838;
   }
+  &--more__button{
+    background: #e4e4e4;
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 3px;
+    background-size: cover;
+  }
+  &--more__button{
+    margin-bottom: 30px;
+  }
 }
