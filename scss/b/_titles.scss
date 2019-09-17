@@ -70,12 +70,12 @@
     font-size: 14px;
     margin-bottom: 5px;
   }
-  &__skills{
+  &--skills{
     text-transform: uppercase;
     margin-top: 50px;
   position: relative;
   }
-  &__skills::before{
+  &--skills::before{
     content: "";
   background: url(../img/left-shapes.png) no-repeat;
   position: absolute;
@@ -84,7 +84,7 @@
   left: 365px;
   bottom: 0px;
   }
-  &__skills::after{
+  &--skills::after{
     content: "";
   background: url(../img/right-shapes.png) no-repeat;
   position: absolute;
@@ -98,11 +98,11 @@
     margin-top: 10px;
     color: #8a8a8a;
   }
-  &__works{
+  &--works{
     position: relative;
     margin-top: 50px;
   }
-  &__works::before{
+  &--works::before{
     content: "";
   background: url(../img/left-shapes.png) no-repeat;
   position: absolute;
@@ -111,7 +111,7 @@
   left: 415px;
   bottom: 0px;
   }
-  &__works::after{
+  &--works::after{
     content: "";
   background: url(../img/right-shapes.png) no-repeat;
   position: absolute;
@@ -120,12 +120,12 @@
   right: 415px;
   bottom: 0px;
   }
-  &__facts{
+  &--facts{
     position: relative;
     margin-top: 50px;
     color: #e4e4e4;
   }
-  &__facts::before{
+  &--facts::before{
     content: "";
     background: url(../img/left-shapes.png) no-repeat;
     position: absolute;
@@ -134,7 +134,7 @@
     left: 415px;
     bottom: 0px;
   }
-  &__facts::after{
+  &--facts::after{
     content: "";
     background: url(../img/right-shapes.png) no-repeat;
     position: absolute;
@@ -156,10 +156,10 @@
     margin-bottom: 25px;
     padding: 10px 15px;
   }
-  &__command{
+  &--command{
     position: relative;
   }
-  &__command::before{
+  &--command::before{
     content: "";
     background: url(../img/left-shapes.png) no-repeat;
     position: absolute;
@@ -168,7 +168,7 @@
     left: 435px;
     bottom: 0px;
   }
-  &__command::after{
+  &--command::after{
     content: "";
     background: url(../img/right-shapes.png) no-repeat;
     position: absolute;
