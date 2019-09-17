@@ -1,6 +1,40 @@
 .container{
   width: 1170px;
   margin: 0 auto;
+  &__post{
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 620px;
+  }
+  &__title{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  &__menu{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 35px;
+  }
+  &__item{
+    display: flex;
+    width: 340px;
+    margin-bottom: 30px;
+  }
+  &__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
   &--wrap{
     display: flex;
   flex-wrap: wrap;

@@ -1,34 +1,8 @@
 .blog{
   background: #383838;
-  &__title{
-    display: flex;
-    align-items:center;
-    flex-direction: column;
-    margin-bottom: 50px;
-  }
-  &__info{
-    display: flex;
-    justify-content: space-between;
-  }
-  &__details--item{
-    display: flex;
-    width: 400px;
-    margin-bottom: 40px;
-  }
   &__img{
     margin-right: 40px;
     margin-top: 5px;
   }
-  &__details{
-    max-width: 400px;
-    margin-top: 80px;
-    margin-left: 50px;
-  }
-  &__details--image IMG {
-    position: relative;
-  }
-  &__details--first{
-    z-index: 1;
-    left: 190px;
-  }
+  
 }

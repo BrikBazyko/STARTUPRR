@@ -1,14 +1,13 @@
 .text{
   font-size: 18px;
-  &--main{
+  &--header{
     background: #363636;
     color: white;
     max-width: 600px;
     padding: 3px;
     border-radius: 5px;
   }
-  &--main::before{
-    content: "S";
+  &--header::first-letter{
     color: #5ea79c;
   }
   &--gallery{
@@ -20,7 +19,7 @@
       margin-bottom: 35px;
     }
   }
-  &--blog{
+  &--container--blog{
     color: #606060;
     &__details{
       font-size: 15px;
@@ -32,18 +31,17 @@
     font-size: 14px;
     color: #7a7a7a;
   }
-  &--title__skills{
-    color: #606060;
-    margin-top: 5px;
-    margin-bottom: 50px;
-
-  }
-  &--works{
-    color: #606060;
-    margin-top: 5px;
-    margin-bottom: 25px;
-  }
-  &--facts{
+  // &--title__skills{
+  //   color: #606060;
+  //   margin-top: 5px;
+  //   margin-bottom: 50px;
+  // }
+  // &--works{
+  //   color: #606060;
+  //   margin-top: 5px;
+  //   margin-bottom: 25px;
+  // }
+  &--container{
     color:#8a8a8a;
     margin-bottom: 50px;
   }
@@ -77,19 +75,10 @@
     font-size: 12px;
     position: relative;
   }
-  &--command__members--phone::before{
-    content: "";
-    background: url(../img/phone.png) no-repeat;
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    left: -50px;
-    background-size: cover;
-    top: -10px;
-  }
-  &--price{
-    color: #8a8a8a;
-    margin-right: 5px;
-    font-size: 14px;
-  }
+
+  // &--price{
+  //   color: #8a8a8a;
+  //   margin-right: 5px;
+  //   font-size: 18px;
+  // }
 }

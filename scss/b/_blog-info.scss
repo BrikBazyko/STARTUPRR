@@ -1,0 +1,22 @@
+.blog-info{
+  display: flex;
+  justify-content: space-between;
+  &__list{
+    max-width: 400px;
+    margin-top: 80px;
+    margin-left: 50px;
+  }
+  &__list--item{
+    display: flex;
+    width: 400px;
+    margin-bottom: 40px;
+  }
+  &__image--image IMG {
+    position: relative;
+  }
+  &__image--first{
+    z-index: 1;
+    left: 190px;
+    position: relative;
+  }
+}

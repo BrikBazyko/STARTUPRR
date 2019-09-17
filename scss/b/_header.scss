@@ -1,11 +1,13 @@
 .header{
+  background: url(../img/profile.jpg);
+  height: 620px;
+}
+.header--ground{
+  height: 60px;
   background: #f9f9f9;
   display: flex;
   justify-content: space-between;
   padding: 20px;
   border-bottom: 1px solid silver;
-  &__menu{
-    display: flex;
-    justify-content: space-between;
-  }
+  align-items: center;
 }
