@@ -1,0 +1,21 @@
+.social{
+  background: #383838;
+  display: flex;
+  &--logo{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  &__list{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  &-icon{
+    margin: 10px;
+    border:1px solid gray;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+  }
+}
