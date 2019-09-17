@@ -22,19 +22,4 @@
 @import "b/list";
 @import "b/purchase";
 @import "b/social";
-
-.footer{
-  background: #383838;
-}
-.title--footer{
-  text-transform: none;
-  padding: 50px 0 30px 0;
-  color: #cccccc;
-}
-.container--footer{
-  display: flex;
-  justify-content: center;
-}
-.last-icon{
-  margin-top: -33px;
-}
+@import "b/footer";
