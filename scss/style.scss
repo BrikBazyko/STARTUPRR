@@ -23,28 +23,3 @@
 @import "b/social";
 @import "b/footer";
 @import "b/blog-info";
-
-
-.command-members{
-  display: flex;
-  justify-content: space-around;
-  margin-top: 50px
-}
-.command-members--item{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 5px;
-  border: 1px solid #dedede;
-  margin-bottom: 50px;
-}
-.phone::before{
-  content: "";
-  background: url(../img/phone.png) no-repeat;
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  left: -50px;
-  background-size: cover;
-  top: -10px;
-}

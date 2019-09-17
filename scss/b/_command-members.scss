@@ -1,0 +1,13 @@
+.command-members{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  &--item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #dedede;
+    margin-bottom: 50px;
+  }
+}

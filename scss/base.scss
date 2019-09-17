@@ -3,6 +3,17 @@
   color: #5ea79c;
   margin-top: 50px;
 }
+.phone::before{
+  content: "";
+  background: url(../img/phone.png) no-repeat;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: -50px;
+  background-size: cover;
+  top: -10px;
+}
+
 .line::after{
   content: "";
   position: absolute;
