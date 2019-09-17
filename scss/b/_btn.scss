@@ -91,4 +91,28 @@
     border-radius: 5px;
     text-transform: uppercase;
   }
+  &--purchase{
+    background: #00a99d;
+    text-decoration: none;
+    color: white;
+    padding: 10px 35px 10px 10px;
+    width: 150px;
+    height: 20px;
+    font-size: 14px;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-top: 60px;
+    position: relative;
+  }
+  &--purchase::after{
+    content: "";
+    background: url(../img/shop-cart.png) no-repeat;
+    position: absolute;
+    width: 28px;
+    height: 20px;
+    right: 5px;
+    bottom: 10px;
+  }
 }
