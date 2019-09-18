@@ -8,6 +8,7 @@
   &--gallery{
     text-transform: uppercase;
     position: relative;
+    text-align: center;
   }
   &--gallery__list{
     text-transform: uppercase;
@@ -21,7 +22,7 @@
     position: absolute;
     width: 28px;
     height: 20px;
-    right: 235px;
+    right: 705px;
     bottom: 0px;
   }
   &--gallery::after{
@@ -30,7 +31,7 @@
     position: absolute;
     width: 28px;
     height: 20px;
-    left: 235px;
+    left: 705px;
     bottom: 0px;
   }
   &--container--blog{
