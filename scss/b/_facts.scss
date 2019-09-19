@@ -5,15 +5,15 @@
   text-align: center;
   flex-direction: column;
   background: #383838;
-  &__list{
+  &-row{
     display: flex;
     justify-content: space-around;
     margin-bottom: 50px;
   }
-  &__item{
+  &-item{
     position: relative;
   }
-  &__item::after{
+  &-item::after{
     content: "";
     background: url(../img/right-shape.png) no-repeat;
     position: absolute;
@@ -22,7 +22,7 @@
     right: 170px;
     bottom: 0px;
   }
-  &__item::before{
+  &-item::before{
     content: "";
     background: url(../img/right-shape.png) no-repeat;
     position: absolute;
@@ -31,7 +31,7 @@
     left: 200px;
     bottom: 0px;
   }
-  &__item:nth-child(2)::after{
+  &-item:nth-child(2)::after{
     content: "";
     background: url(../img/left-shape.png) no-repeat;
     position: absolute;
@@ -40,7 +40,7 @@
     right: 170px;
     bottom: 0px;
   }
-  &__item:nth-child(2)::before{
+  &-item:nth-child(2)::before{
     content: "";
     background: url(../img/left-shape.png) no-repeat;
     position: absolute;

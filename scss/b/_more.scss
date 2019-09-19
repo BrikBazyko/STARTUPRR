@@ -1,12 +1,12 @@
 .more{
   background: #00a99d;
-  &__title{
+  &-title{
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
   }
-  &__button{
+  &-button{
     margin-top: 25px;
     display: flex;
     justify-content: center;

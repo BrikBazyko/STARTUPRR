@@ -4,17 +4,17 @@
   color: black;
   text-align: center;
   flex-direction: column;
-  &-row{
-    display: flex;
-    justify-content: center;
-    margin-top: -3px;
-  }
-  &__gallery--img{
-    height: 235px;
-    width: 235px;
-    border-radius: 3px;
-  }
-  &__gallery--image{
-    margin: 1px;
-  }
+}
+.works-row{
+  display: flex;
+  justify-content: center;
+  margin-top: -3px;
+}
+.works-item{
+  margin: 1px;
+}
+.works-item__image{
+  height: 235px;
+  width: 235px;
+  border-radius: 3px;
 }

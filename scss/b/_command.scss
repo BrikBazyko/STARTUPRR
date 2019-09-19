@@ -1,18 +1,18 @@
 .command{
   background: #f9f9f9;
-  &__title--btn{      background: #383838;
+  &-title--btn{      background: #383838;
     width: 25px;
     height: 25px;
     border: none;
     border-radius: 3px;
   }
-  &__title{
+  &-title{
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
     text-align: center;
   }
-  &__members--img{
+  &-members--img{
     width: 250px;
     height: 270px;
     border-radius: 5px;

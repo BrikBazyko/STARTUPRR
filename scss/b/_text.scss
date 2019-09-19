@@ -55,14 +55,14 @@
     color:#8a8a8a;
     margin-top: 15px;
   }
-  &--command__members{
+  &--command-members{
     color: #aaaaaa;
     margin: 0 0 25px;
     position: relative;
     font-size: 14px;
     margin-left: 20px;
   }
-  &--command__members::before{
+  &--command-members::before{
     content: "";
     background: url(../img/envelope.png) no-repeat;
     position: absolute;
@@ -72,7 +72,7 @@
     background-size: cover;
     top: -7px;
   }
-  &--command__members--phone{
+  &--command-members--phone{
     font-size: 12px;
     position: relative;
   }
