@@ -14,7 +14,7 @@
     color: gray;
     margin-top: 10px;
     text-align: center;
-    &__list{
+    &__item{
       font-size: 16px;
       color: #606060;
       margin-bottom: 35px;
@@ -28,7 +28,7 @@
       line-height: 25px;
     }
   }
-  &--info__item{
+  &--info-item{
     font-size: 14px;
     color: #7a7a7a;
   }

@@ -2,7 +2,7 @@
   &:hover{
     color: black;
   }
-  &--gallery__list{
+  &--gallery__item{
     text-decoration: none;
     padding: 10px;
     border: 1px solid #606060;
@@ -91,7 +91,7 @@
     border-radius: 5px;
     text-transform: uppercase;
   }
-  &--container--purchase{
+  &--container-purchase{
     background: #00a99d;
     text-decoration: none;
     color: white;
@@ -106,7 +106,7 @@
     margin-top: 60px;
     position: relative;
   }
-  &--container--purchase::after{
+  &--container-purchase::after{
     content: "";
     background: url(../img/shop-cart.png) no-repeat;
     position: absolute;

@@ -1,12 +1,12 @@
 .blog-info{
   display: flex;
   justify-content: space-between;
-  &__list{
+  &-list{
     max-width: 400px;
     margin-top: 80px;
     margin-left: 50px;
   }
-  &__list--item{
+  &-list--item{
     display: flex;
     width: 400px;
     margin-bottom: 40px;

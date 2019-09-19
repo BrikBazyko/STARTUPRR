@@ -25,7 +25,7 @@
   //   align-items: center;
   //   margin-bottom: 35px;
   // }
-  &-item{
+  &-box{
     display: flex;
     width: 340px;
     margin-bottom: 30px;
@@ -44,16 +44,16 @@
     display: flex;
     justify-content: space-between;
   }
-  &--purchase{
+  &-purchase{
     display: flex;
     justify-content: space-around;
   }
-  &--social{
+  &-social{
     display: flex;
     align-items: center;
     flex-direction: column;
   }
-  &--footer{
+  &-footer{
     display: flex;
     justify-content: center;
   }
