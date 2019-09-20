@@ -1,5 +1,6 @@
+@import "variables";
 footer{
-  background: #383838;
+  background: $back-black;
   height: 100px;
   display: flex;
   align-items: center;

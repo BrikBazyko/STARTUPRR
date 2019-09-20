@@ -1,3 +1,23 @@
+.fab.fa-facebook-f{
+border:1px solid #5d5d5d;
+padding: 5px 10px;
+border-radius: 5px;
+margin-right: 5px;
+color: #e4e4e4;
+}
+.fab.fa-twitter{
+  border:1px solid #5d5d5d;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #e4e4e4;
+}
+.fab.fa-youtube{
+  border:1px solid #5d5d5d;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-left: 5px;
+  color: #e4e4e4;
+}
 .fa-check-circle {
   font-size: 50px;
   color: #5ea79c;
@@ -82,33 +102,22 @@ body{
 .fontup{
   font-size: 70px;
 }
-.vertical-sub{
-  vertical-align: sub;
+.left{
+  margin-left: 10px;
 }
-.vertical-middle{
-  vertical-align: middle;
-  position: relative;
-}
+
 .up{
   font-size: 70px;
   vertical-align: top;
 }
-.vertical-up{
-  vertical-align: middle;
-}
+
 .right--icon{
   background: #00a99d;
 }
 li{
   list-style-type: none;
 }
-.sup{
-  vertical-align: text-top;
-  font-size: 14px;
-}
-.left{
-  margin-left: 10px;
-}
+
 .map-icon{
   width: 100%;
 }

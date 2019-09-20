@@ -2,7 +2,7 @@
   &:hover{
     color: black;
   }
-  &--gallery__item{
+  &--gallery-item{
     text-decoration: none;
     padding: 10px;
     border: 1px solid #606060;
@@ -17,7 +17,7 @@
     margin-top: 40px;
     margin-bottom: 50px;
   }
-  &--works__button{
+  &--works-button{
     text-transform: uppercase;
     color: white;
     background:#00a99d;
@@ -25,7 +25,7 @@
     padding: 10px;
     border-radius: 5px;
   }
-  &--works__button:hover{
+  &--works-button:hover{
     color: white;
   }
   &--label{
@@ -58,7 +58,7 @@
   &--command-members:hover{
     color: #e4e4e4;
   }
-  &--command__member--color{
+  &--command-member--color{
     background:  #383838;
   }
   &--more-button{
@@ -72,7 +72,7 @@
   &--more-button{
     margin-bottom: 30px;
   }
-  &--banners__list{
+  &--banners-list{
     backgroaund: #e4e4e4;
     width: 25px;
     height: 25px;
@@ -103,7 +103,6 @@
     align-items: center;
     border-radius: 5px;
     text-transform: uppercase;
-    margin-top: 60px;
     position: relative;
   }
   &--container-purchase::after{

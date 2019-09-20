@@ -1,5 +1,6 @@
+@import "variables";
 .social{
-  background: #383838;
+  background: $back-black;
   display: flex;
   &--logo{
     text-align: center;
@@ -11,11 +12,5 @@
     justify-content: center;
     margin-bottom: 50px;
   }
-  &-icon{
-    margin: 10px;
-    border:1px solid gray;
-    padding: 10px;
-    text-align: center;
-    border-radius: 5px;
-  }
+
 }

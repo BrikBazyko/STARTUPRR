@@ -1,8 +1,9 @@
+@import "variables";
 .blog{
-  background: #383838;
+  background: $back-black;
   &__img{
     margin-right: 40px;
     margin-top: 5px;
   }
-  
+
 }

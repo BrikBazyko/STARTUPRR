@@ -1,10 +1,11 @@
+@import "variables";
 .facts{
   display: flex;
   justify-content: center;
   color: black;
   text-align: center;
   flex-direction: column;
-  background: #383838;
+  background: $back-black;
   &-row{
     display: flex;
     justify-content: space-around;

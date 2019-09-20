@@ -1,5 +1,6 @@
+@import "variables";
 .banners{
-  background: #383838;
+  background: $back-black;
   padding: 50px 0 50px 0px;
 
   &-item{
