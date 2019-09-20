@@ -22,11 +22,11 @@
   }
   &--container--blog{
     color: #606060;
-    &__details{
-      font-size: 15px;
-      color: #606060;
-      line-height: 25px;
-    }
+  }
+  &--blog-details{
+    font-size: 15px;
+    color: #606060;
+    line-height: 25px;
   }
   &--info-item{
     font-size: 14px;
