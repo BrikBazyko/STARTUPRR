@@ -1,7 +1,8 @@
 .header{
   background: url(../img/profile.jpg) no-repeat;
   height: 620px;
-  background-size: cover;
+  background-attachment: scroll;
+  background-position: center;
 }
 .header--ground{
   height: 60px;
