@@ -1,0 +1,101 @@
+@media (max-width: 420px) {
+    .container{
+        width:  420px;
+    }
+    .container-post{
+        width: unset;
+    }
+    .title--container-post{
+        font-size: 32px;
+    }
+    .title--header{
+        font-size: 16px;
+    }
+    .text--header{
+        font-size: 12px;
+    }
+    .line::before {
+        content: "";
+        position: absolute;
+        width: 100px;
+        height: 2px;
+        background: #ababab;
+        left: 300px;
+        bottom: 10px;
+    }
+    .line::after {
+        content: "";
+        position: absolute;
+        width: 100px;
+        height: 2px;
+        background: #ababab;
+        left: 20px;
+        bottom: 10px;
+    }
+    .header--ground{
+        height: 350px;
+    }
+    .container-menu{
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu--header{
+        flex-direction: column;
+    }
+    .container-menu--logo{
+        width: 150px;
+        height: 40px;
+    }
+    .title--gallery{
+        font-size: 24px;
+    }
+    .title--gallery::before {
+        content: "";
+        background: url(../img/left-shapes.png) no-repeat;
+        position: absolute;
+        width: 28px;
+        height: 20px;
+        right: 330px;
+        bottom: 0px;
+    }
+    .title--gallery::after {
+        content: "";
+        background: url(../img/right-shapes.png) no-repeat;
+        position: absolute;
+        width: 28px;
+        height: 20px;
+        left: 330px;
+        bottom: 0px;
+    }
+    .text--gallery{
+        font-size: 14px;
+    }
+    .gallery__img{
+        width: 30px;
+        height: 30px;
+    }
+    .title--gallery-item{
+        font-size: 10px;
+    }
+    .text--gallery-item{
+        font-size: 10px;
+    }
+    .btn--gallery-item{
+        padding: 5px;
+        font-size: 10px;
+    }
+    .section-icon{
+        margin-bottom: -20px;
+    }
+    .section-icon--img{
+        height: 40px;
+        width: 40px;
+    }
+    .title--container--blog{
+        font-size: 24px;
+    }
+    .text--container--blog{
+        font-size: 14px;
+        text-align: center;
+    }
+}
