@@ -13,6 +13,8 @@
     }
     .text--header{
         font-size: 12px;
+        width: 400px;
+        padding: 5px
     }
     .line::before {
         content: "";
@@ -29,7 +31,7 @@
         width: 100px;
         height: 2px;
         background: #ababab;
-        left: 20px;
+        left: 15px;
         bottom: 10px;
     }
     .header--ground{
@@ -71,14 +73,14 @@
         font-size: 14px;
     }
     .gallery__img{
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 40px;
     }
     .title--gallery-item{
         font-size: 10px;
     }
     .text--gallery-item{
-        font-size: 10px;
+        font-size: 12px;
     }
     .btn--gallery-item{
         padding: 5px;
@@ -97,5 +99,151 @@
     .text--container--blog{
         font-size: 14px;
         text-align: center;
+    }
+    .blog-info{
+        display: block;
+
+    }
+    .blog-info-list--item{
+        width:330px
+    }
+    .blog-info__image--first{
+        width: 350px;
+        height: 250px;
+
+        top: 50px;
+        left: 0;
+    }
+    .blog-info__image--second{
+        width: 250px;
+        height: 330px;
+        position: relative;
+        margin-top: -280px;
+        margin-left: 160px;
+    }
+    .info{
+        margin-left: 30px;
+    }
+    .title--container--skills{
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .text--container{
+        font-size: 14px;
+    }
+    .skills-list{
+        flex-wrap: wrap;
+    }
+    .skills-item{
+        width: 200px;
+        margin-left: -20px;
+    }
+    .title--container::before {
+        content: "";
+        background: url(../img/left-shapes.png) no-repeat;
+        position: absolute;
+        width: 28px;
+        height: 20px;
+        left: 330px;
+        bottom: 0px;
+    }
+    .title--container::after {
+        content: "";
+        background: url(../img/right-shapes.png) no-repeat;
+        position: absolute;
+        width: 28px;
+        height: 20px;
+        right: 330px;
+        bottom: 0px;
+    }
+    .title--container--color::before {
+        content: "";
+        background: url(../img/left-shapes.png) no-repeat;
+        position: absolute;
+        width: 28px;
+        height: 20px;
+        left: 335px;
+        bottom: 0px;
+    }
+    .title--container--color::after {
+        content: "";
+        background: url(../img/right-shapes.png) no-repeat;
+        position: absolute;
+        width: 28px;
+        height: 20px;
+        right: 335px;
+        bottom: 0px;
+    }
+    .text--container{
+    width: 400px;
+}
+    .btn--works-button{
+        width:350px;
+    }
+    .facts-row{
+        flex-wrap: wrap;
+    }
+    .title--label{
+        font-size: 16px;
+    }
+    .label-button{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .container-label{
+        align-items: center;
+    }
+    .title--command::before {
+        content: "";
+        background: url(../img/left-shapes.png) no-repeat;
+        position: absolute;
+        width: 28px;
+        height: 20px;
+        left: 310px;
+        bottom: 0px;
+    }
+    .title--command::after {
+        content: "";
+        background: url(../img/right-shapes.png) no-repeat;
+        position: absolute;
+        width: 28px;
+        height: 20px;
+        right: 310px;
+        bottom: 0px;
+    }
+    .command-title{
+        width: 400px;
+        margin-left: 5px;
+    }
+    .command-members{
+        flex-wrap: wrap;
+    }
+    .title--container{
+        margin-bottom: 10px;
+    }
+    .title--container::after {
+        content: "";
+        background: url(../img/right-shapes.png) no-repeat;
+        position: absolute;
+        width: 28px;
+        height: 20px;
+        right: 350px;
+        bottom: 0px;
+    }
+    .title--container::before {
+        content: "";
+        background: url(../img/left-shapes.png) no-repeat;
+        position: absolute;
+        width: 28px;
+        height: 20px;
+        left: 350px;
+        bottom: 0px;
+    }
+    .price-list{
+        flex-wrap: wrap;
+    }
+    .package{
+        margin-bottom: 30px;
     }
 }
