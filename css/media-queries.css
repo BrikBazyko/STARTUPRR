@@ -1,6 +1,6 @@
 @media (max-width: 420px) {
     .container{
-        width:  420px;
+        width:  100%;
     }
     .container-post{
         width: unset;
@@ -13,7 +13,6 @@
     }
     .text--header{
         font-size: 12px;
-        width: 400px;
         padding: 5px
     }
     .line::before {
@@ -175,7 +174,7 @@
         bottom: 0px;
     }
     .text--container{
-    width: 400px;
+    width: 100%;
 }
     .btn--works-button{
         width:350px;
@@ -230,6 +229,9 @@
         height: 20px;
         right: 350px;
         bottom: 0px;
+    }
+    .title--container--color{
+        margin-bottom: 10px;
     }
     .title--container::before {
         content: "";
