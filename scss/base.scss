@@ -142,3 +142,24 @@ li{
 .owl-next {
   right: 5px;
 }
+.owl-stage-outer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.owl-carousel-item-first{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.owl-stage{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.owl-item.active{
+  width: 100%;
+}

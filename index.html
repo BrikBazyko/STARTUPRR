@@ -12,7 +12,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-  <header class="header">
+<script src="libs/jquery/jquery-3.4.1.min.js"></script>
+<script src="libs/owlcarousel/owl.carousel.min.js"></script>
+<script src="js/main.js" charset="utf-8"></script>
+
+
+<header class="header">
 
     <div class="container">
       <div class="container-post">
@@ -59,19 +64,22 @@
       <p class="text text--gallery"> We offer our customers the best services & solutions, this is our main services list</p>
       <div class="gallery-row">
         <div class="gallery-item">
-          <img src="img/multipurpose.png" alt="multipurpose"   width="80" height="80" class="gallery__img">
+            <div class="gallery-item--img">
+                <img src="img/multipurpose.png" alt="multipurpose"   width="40" height="40" class="gallery__img"></div>
           <h3 class="title title--gallery-item">responsive & multipurpose</h3>
           <p class="text text--gallery-item">Proin in magna a ipsum viverra scelerisq enec turp, Nunc vestibulum fringilla accumsan ornare quis. </p>
           <a class="btn btn--gallery-item" href="#">READ MORE</a>
         </div>
         <div class="gallery-item">
-          <img src="img/customization.png" alt="customization"width="80" height="80" class="gallery__img" >
+            <div class="gallery-item--img">
+                <img src="img/customization.png" alt="customization"width="40" height="40" class="gallery__img" > </div>
           <h3 class="title title--gallery-item" >easy customization</h3>
           <p class="text text--gallery-item">Proin in magna a ipsum viverra scelerisq enec turp, Nunc vestibulum fringilla accumsan ornare quis.</p>
           <a class="btn btn--gallery-item" href="#">READ MORE</a>
         </div>
         <div class="gallery-item">
-          <img src="img/awesome.png" alt="awesome" width="80" height="80" class="gallery__img">
+            <div class="gallery-item--img">
+                <img src="img/awesome.png" alt="awesome" width="40" height="40" class="gallery__img"></div>
           <h3 class="title title--gallery-item"> awesome friendly support</h3>
           <p class="text text--gallery-item">Proin in magna a ipsum viverra scelerisq enec turp, Nunc vestibulum fringilla accumsan ornare quis. </p>
           <a class="btn btn--gallery-item" href="#">READ MORE</a>
@@ -377,8 +385,13 @@
 
       <div class="container">
         <div class="more-title">
+            <div class="owl-carousel">
+
+                <div class="owl-carousel-item-first">
           <h4 class="title title--more"><span class="color">alexis simpson</span> - ceo & Developer</h4>
           <h3 class="title title--more--title"> Lorem ipsum dolor sit amet, laudantium, totam rem. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor, vel</br> interdum mi sapien ut justo consequat magna, id molestie ipsum volutpat quis.</h3>
+        </div>
+            </div>
         </div>
         <div class="more-button">
           <button type="button" name="button" class="btn btn--more-button">
@@ -392,10 +405,6 @@
 
     </section>
 
-
-    <script src="libs/jquery/jquery-3.4.1.min.js"></script>
-    <script src="libs/owlcarousel/owl.carousel.min.js"></script>
-    <script src="js/main.js" charset="utf-8"></script>
 
 
 
@@ -535,7 +544,7 @@
     </section>
     <section class="section-icon last-icon">
 
-      <img src="img/section-icon3.png" alt="section-quotes" class="section-icon--img">
+        <a href="" class="btn btn--section-icon"> <img src="img/section-icon3.png" alt="section-quotes" class="section-icon--img"></a>
     </section>
     <footer class="footer">
       <div class="container container-footer">
